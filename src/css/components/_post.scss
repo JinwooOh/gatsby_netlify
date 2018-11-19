@@ -1,0 +1,19 @@
+.post{
+  display: block;
+  background-color: $color-white-bg;
+  margin: 3rem;
+  &__card{
+    flex: 0 1 28rem;
+    padding: 2rem;
+    margin: 0.8rem;
+    min-height: 24rem;
+    background-color: $color-gray;
+    color: $color-black;
+    border-radius: 1rem;
+    transition: all 0.3s;
+    position: relative;
+      &:hover {
+        box-shadow: 0 0.2rem 1rem rgba($color-black, 0.5);
+      }
+    }
+}
