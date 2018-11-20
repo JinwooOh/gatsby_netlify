@@ -8,22 +8,21 @@
 .nav{
   z-index: 1;
   display: flex;
-  background-image: url($bg_footer);
+  justify-content: space-between;
+  // background-image: url($bg_footer);
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  justify-content: space-around;
+  // background-size: cover;
   align-self: stretch;
   align-items: center;
-  background-color: $color-primary;
+  // background-color: $color-primary;
   padding: 1rem 4rem;
   position: fixed;
   top: 0;
   width: 100%;
   a {
-    color: $color-white-bg;
+    color: $color-white;
     &:hover{
-      color:$color-primary;
+      color:$color-white;
     }
   }
 }

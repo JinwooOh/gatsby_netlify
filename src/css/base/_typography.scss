@@ -1,6 +1,6 @@
 body {
-  font-size: 1.6rem;
-  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 li {
   padding-top: 0.8rem;
@@ -16,15 +16,11 @@ select {
   border: 0.1rem solid $color-tertiary-dark;
   border-radius: 0.4rem;
 }
-
-/* summary */
-.tasks-list {
-  padding-left: 3rem;
-  text-align: left;
-  list-style-position: inside;
-  padding-bottom: 4.2rem;
-  &-gap {
-    padding: 0.6rem;
+a {
+  text-decoration: none;
+  &:hover{
+    text-decoration:none;
+    cursor:pointer;
   }
 }
 
