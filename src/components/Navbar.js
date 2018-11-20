@@ -3,15 +3,15 @@ import { Link } from 'gatsby';
 
 const Navbar = () => (
   <nav className="nav">
-    <Link to="/" className="navbar-item">
-      <h3>Home</h3>
+    <Link to="/" className="nav--item">
+      <p>Home</p>
     </Link>
 
-    <Link to="/about">
-      <h3>About</h3>
+    <Link to="/about" className="nav--item">
+      <p>About</p>
     </Link>
-    <Link to="/tags">
-      <h3>Tags</h3>
+    <Link to="/tags" className="nav--item">
+      <p>Tags</p>
     </Link>
   </nav>
 );

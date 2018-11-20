@@ -11,8 +11,8 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <section>
-          <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
+        <section className="blog">
+          <div>
             <div className="blog--title">
               <h1>Blog</h1>
             </div>

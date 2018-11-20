@@ -1,20 +1,14 @@
-body {
-  font-size: 1.8rem;
-  font-weight: 400;
-}
+// body {
+//   font-size: 1.8rem;
+//   font-weight: 400;
+// }
 li {
   padding-top: 0.8rem;
 }
-
-/* input box */
-input[type="text"],
-input[type="number"],
-input[type="date"],
-input[type="password"],
 select {
-  display: inline-block;
-  border: 0.1rem solid $color-tertiary-dark;
-  border-radius: 0.4rem;
+display: inline-block;
+border: 0.1rem solid $color-tertiary-dark;
+border-radius: 0.4rem;
 }
 a {
   text-decoration: none;
@@ -24,10 +18,10 @@ a {
   }
 }
 
-.blog--title{
-  text-align: center;
-  font-size: 2.4rem;
-  h1{
-    font-weight: 300;
-  }
-}
+// .blog--title{
+//   text-align: center;
+//   font-size: 2.4rem;
+//   h1{
+//     font-weight: 300;
+//   }
+// }

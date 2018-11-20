@@ -3,9 +3,9 @@ module.exports = {
     title: 'Gatsby + Netlify CMS Starter',
   },
   plugins: [
-    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-typography',
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-typography`,
       options: {

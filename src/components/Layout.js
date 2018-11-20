@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import '../css/style.css';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="main-wrapper">
     <Helmet title="Jinwoo's Blog" />
     <Navbar />
     <div>{children}</div>
