@@ -12,7 +12,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <section>
-          <div className="wrapper--post">
+          <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
             <div className="blog--title">
               <h1>Blog</h1>
             </div>
@@ -33,7 +33,7 @@ export default class IndexPage extends React.Component {
             </div>
           </div>
         </section>
-        </Layout>
+      </Layout>
     );
   }
 }
