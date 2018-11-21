@@ -13,20 +13,24 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="blog">
           <div>
-            <div className="blog--title">
+            {/* <div className="blog--title">
               <h1>Blog</h1>
-            </div>
+            </div> */}
 
             <div className="post">
               {posts.map(({ node: post }) => (
                 <Link to={post.fields.slug}>
                   <div key={post.id} className="post__card">
-                    <h3>{post.frontmatter.title}</h3>
-                    {post.frontmatter && (
-                      <Img sizes={post.frontmatter.cover.childImageSharp.sizes} />
-                    )}
+                    <h3 className="post__title">{post.frontmatter.title}</h3>
+                    <p className="post__desc">{post.frontmatter.description}</p>
+                    <small className="post__date">{post.frontmatter.date}</small>
 
-                    <small> on {post.frontmatter.date}</small>
+                    {post.frontmatter && (
+                      <Img
+                        className="post__image"
+                        sizes={post.frontmatter.cover.childImageSharp.sizes}
+                      />
+                    )}
                   </div>
                 </Link>
               ))}
@@ -63,11 +67,12 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                sizes(maxWidth: 480) {
+                sizes(maxWidth: 300) {
                   ...GatsbyImageSharpSizes
                 }
               }
             }
+            description
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }
