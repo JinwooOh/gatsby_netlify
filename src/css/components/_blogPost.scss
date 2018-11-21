@@ -1,0 +1,22 @@
+.blogPost{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  max-width: 44rem;
+  &__desc{
+    margin: 0rem;
+  }
+  &__date{
+    color: gray;
+  }
+  &__tag{
+    &--title{
+      margin: 0;
+    }
+    &--list{
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
