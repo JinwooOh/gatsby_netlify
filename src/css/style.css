@@ -26,8 +26,7 @@ a {
 .post {
   display: block;
   background-color: #f4f4f4;
-  margin: 2rem;
-  padding: 2rem; }
+  padding-bottom: 2rem; }
   .post__card {
     display: block;
     max-width: 40rem;
