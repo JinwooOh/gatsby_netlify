@@ -8,6 +8,7 @@ export default class Info extends Component {
     const group = this.props.data.allMarkdownRemark.group;
     return (
       <div className="info">
+        <br />
         <p>Tags</p>
         <ul className="info__list">
           {group.map(tag => (

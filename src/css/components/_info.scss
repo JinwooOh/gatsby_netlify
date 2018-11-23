@@ -1,23 +1,15 @@
 .info{
-
-  width: 16rem;
-  position: fixed;
   z-index: 1;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
-  right: 0;
-  line-height: 1.4rem;
-  // background-color: #111;
-  // overflow-x: hidden;
-  padding-top: 10rem;
-  margin-right: 3rem;
-  // &__list{
-  //   font-size: 1.rem;
-
-  // }
+  height: 20rem;
+  padding-top: 2.3rem;
+  margin-right: 2rem;
   @include respond(tab-port) {
     display: none;
   }
-  // border-left: 2px solid $color-gray;
-  // background: purple;
-
+  &__list{
+    font-size: 1.6rem;
+  }
 }
