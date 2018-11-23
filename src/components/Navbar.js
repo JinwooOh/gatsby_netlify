@@ -5,12 +5,12 @@ const Navbar = () => (
   <nav className="nav">
     <ul>
       <Link to="/" className="nav--item">
-        <p>Home</p>
+        <p className="nav--home">Home</p>
       </Link>
       <Link to="/tags" className="nav--item">
         <p>Tags</p>
       </Link>
-      <Link to="/about" className="nav--item nav--about">
+      <Link to="/about" className="nav--item">
         <p>About</p>
       </Link>
     </ul>
