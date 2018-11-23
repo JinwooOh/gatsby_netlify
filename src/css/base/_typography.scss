@@ -12,6 +12,7 @@ border: 0.1rem solid $color-tertiary-dark;
 border-radius: 0.4rem;
 }
 a {
+  color: $color-secondary;
   text-decoration: none;
   &:hover{
     text-decoration:none;

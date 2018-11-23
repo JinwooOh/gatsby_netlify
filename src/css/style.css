@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: inherit; }
 
+p {
+  padding: 1.3rem 0; }
+
 html {
   font-size: 62.5%; }
   @media only screen and (max-width: 75em) {
@@ -20,7 +23,7 @@ html {
 body {
   font-size: 2rem;
   color: #555555;
-  line-height: 3rem;
+  line-height: 3.2rem;
   box-sizing: border-box;
   background-color: #f4f4f4; }
 
@@ -41,6 +44,7 @@ select {
   border-radius: 0.4rem; }
 
 a {
+  color: #9F392B;
   text-decoration: none; }
   a:hover {
     text-decoration: none;
@@ -51,6 +55,7 @@ a {
   background-color: #f4f4f4;
   padding-bottom: 3rem; }
   .post__card {
+    color: #555555;
     display: block;
     max-width: 70rem;
     margin: 0 auto;
@@ -135,7 +140,7 @@ a {
     float: left; }
   .nav a {
     display: block;
-    color: #121212;
+    color: #555555;
     font-weight: 700;
     text-align: center;
     padding: 1rem 1.6rem;

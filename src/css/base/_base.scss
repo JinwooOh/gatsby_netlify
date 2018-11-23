@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: inherit;
 }
-
+p {
+  padding: 1.3rem 0;
+  }
 html {
   font-size: 62.5%; //1 rem 10px
   @include respond(tab-land) {
@@ -24,7 +26,7 @@ html {
 body {
   font-size: 2rem;
   color: $color-text;
-  line-height: 3rem;
+  line-height: 3.2rem;
   box-sizing: border-box;
   background-color: $color-white-bg;
 }
