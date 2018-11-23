@@ -150,6 +150,9 @@ a {
   display: flex;
   flex-direction: row; }
 
+.tag__title {
+  font-size: 3.2rem; }
+
 .tag__wrapper {
   padding: 1rem 10rem; }
 
