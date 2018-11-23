@@ -9,7 +9,7 @@ export default class Info extends Component {
     return (
       <div className="info">
         <br />
-        <p>Tags</p>
+        <br />
         <ul className="info__list">
           {group.map(tag => (
             <li key={tag.fieldValue}>

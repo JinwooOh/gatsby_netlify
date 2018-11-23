@@ -95,7 +95,7 @@ a {
   position: sticky;
   top: 0;
   height: 20rem;
-  padding-top: 2.3rem;
+  padding-top: 1rem;
   margin-right: 2rem; }
   @media only screen and (max-width: 56.25em) {
     .info {
@@ -112,21 +112,34 @@ a {
 .post-wrapper {
   display: flex;
   justify-content: center;
-  padding: 4rem 5%;
+  padding: 1rem 5%;
   margin-top: 1rem; }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
   z-index: 1;
-  background-color: #f4f4f4;
-  position: fixed;
-  /* Set the navbar to fixed position */
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
   top: 0;
-  /* Position the navbar at the top of the page */
-  width: 100%;
-  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1); }
+  padding: 0 5%;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1); }
+  .nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f4f4; }
+  .nav li {
+    float: left; }
+  .nav a {
+    display: block;
+    color: #121212;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 1.6rem;
+    text-decoration: none; }
 
 .blog {
   display: flex;

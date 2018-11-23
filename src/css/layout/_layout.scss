@@ -7,22 +7,37 @@
 .post-wrapper{
   display: flex;
   justify-content: center;
-  padding: 4rem 5%;
+  padding: 1rem 5%;
   margin-top: 1rem;
 }
 
 .nav{
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-
-  // overflow: hidden;
   z-index: 1;
-  background-color: $color-white-bg;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%;
-  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 0 5%;
+  & ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $color-white-bg;
+  }
+  & li {
+    float: left;
+  }
+  & a {
+    display: block;
+    color: $color-black;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 1.6rem;
+    text-decoration: none;
+  }
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
 //blog section
