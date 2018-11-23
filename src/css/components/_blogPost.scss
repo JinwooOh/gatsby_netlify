@@ -1,8 +1,12 @@
 .blogPost{
   display: block;
   margin: 0 auto;
-  margin-top: 2.4rem;
-  max-width: 44rem;
+  margin-top: 4rem;
+  max-width: 72rem;
+  @include respond(tab-phone) {
+    // width < 900?
+    background-color: red;
+  }
   &__desc{
     margin: 0rem;
   }

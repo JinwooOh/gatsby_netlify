@@ -5,9 +5,31 @@
   padding: 0;
   box-sizing: inherit; }
 
+html {
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
 body {
+  font-size: 2rem;
+  color: #555555;
+  line-height: 3rem;
   box-sizing: border-box;
   background-color: #f4f4f4; }
+
+blockquote {
+  font-size: 2rem;
+  line-height: 2.2rem; }
+
+h1, h2, h3, h4 {
+  font-size: 3rem; }
 
 li {
   padding-top: 0.8rem; }
@@ -26,32 +48,34 @@ a {
 .post {
   display: block;
   background-color: #f4f4f4;
-  padding-bottom: 2rem; }
+  padding-bottom: 3rem; }
   .post__card {
     display: block;
-    max-width: 40rem;
+    max-width: 70rem;
     margin: 0 auto;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
     border-bottom: 1px solid #E2E2E2; }
   .post__title {
-    font-size: 1.6rem; }
+    font-size: 2.4rem; }
   .post__desc {
+    font-size: 1.8rem;
     margin: 0rem; }
   .post__image {
-    max-width: 30rem;
+    max-width: 52rem;
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem; }
   .post__date {
     color: gray;
-    font-size: 0.8rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem; }
 
 .blogPost {
   display: block;
   margin: 0 auto;
-  margin-top: 2.4rem;
-  max-width: 44rem; }
+  margin-top: 4rem;
+  max-width: 72rem; }
   .blogPost__desc {
     margin: 0rem; }
   .blogPost__date {
@@ -63,29 +87,47 @@ a {
     display: flex;
     flex-wrap: wrap; }
 
+.info {
+  width: 16rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  line-height: 1.4rem;
+  padding-top: 10rem;
+  margin-right: 3rem; }
+  @media only screen and (max-width: 56.25em) {
+    .info {
+      display: none; } }
+
 .main-wrapper {
-  max-width: 110rem;
-  margin: auto;
-  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   background-color: #f4f4f4; }
+
+.post-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 5%;
+  margin-top: 1rem; }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 0.2rem 3rem;
-  padding-top: 0.8rem;
+  padding: 0;
   z-index: 1;
   background-color: #f4f4f4;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
   /* Position the navbar at the top of the page */
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1); }
 
 .blog {
-  margin-top: 2.4rem;
-  max-width: 80rem;
-  margin: 0 auto; }
+  display: flex;
+  flex-direction: row; }
 
 .tag__wrapper {
   padding: 1rem 10rem; }

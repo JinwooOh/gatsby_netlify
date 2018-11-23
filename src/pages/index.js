@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import Info from '../components/Info';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -37,6 +38,7 @@ export default class IndexPage extends React.Component {
             </div>
           </div>
         </section>
+        <Info data={data} />
       </Layout>
     );
   }
@@ -56,6 +58,10 @@ export const pageQuery = graphql`
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
     ) {
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
+      }
       edges {
         node {
           excerpt(pruneLength: 400)
