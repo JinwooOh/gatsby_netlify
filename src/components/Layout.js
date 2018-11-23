@@ -7,7 +7,7 @@ const TemplateWrapper = ({ children }) => (
   <div className="main-wrapper">
     <Helmet title="Jinwoo's Blog" />
     <Navbar />
-    <div className="post-wrapper">{children}</div>
+    <div className="main-container">{children}</div>
   </div>
 );
 

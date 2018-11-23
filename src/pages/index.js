@@ -14,10 +14,6 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="blog">
           <div>
-            {/* <div className="blog--title">
-              <h1>Blog</h1>
-            </div> */}
-
             <div className="post">
               {posts.map(({ node: post }) => (
                 <Link to={post.fields.slug}>

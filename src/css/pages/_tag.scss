@@ -3,10 +3,8 @@
     padding: 1rem 10rem;
   }
   &__list {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: inline-block;
+    padding: 1.6rem;
   }
 }
 

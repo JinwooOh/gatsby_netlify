@@ -22,7 +22,7 @@ html {
 
 body {
   font-size: 2rem;
-  color: #555555;
+  color: #3c3c3c;
   line-height: 3.2rem;
   box-sizing: border-box;
   background-color: #f4f4f4; }
@@ -55,7 +55,7 @@ a {
   background-color: #f4f4f4;
   padding-bottom: 3rem; }
   .post__card {
-    color: #555555;
+    color: #3c3c3c;
     display: block;
     max-width: 70rem;
     margin: 0 auto;
@@ -80,18 +80,15 @@ a {
 .blogPost {
   display: block;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin: 4rem 0;
   max-width: 72rem; }
   .blogPost__desc {
     margin: 0rem; }
   .blogPost__date {
     color: gray; }
-  .blogPost__tag--title {
-    margin: 0; }
   .blogPost__tag--list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap; }
+    display: inline-block;
+    padding-right: 1.4rem; }
 
 .info {
   z-index: 1;
@@ -114,11 +111,13 @@ a {
   margin: 0;
   background-color: #f4f4f4; }
 
-.post-wrapper {
+.main-container {
   display: flex;
   justify-content: center;
-  padding: 1rem 5%;
-  margin-top: 1rem; }
+  padding: 0rem 5%; }
+
+.tag-container {
+  width: 100%; }
 
 .nav {
   z-index: 1;
@@ -127,6 +126,7 @@ a {
   position: sticky;
   top: 0;
   padding: 0 5%;
+  margin-bottom: 1.6rem;
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1); }
   .nav ul {
     display: flex;
@@ -140,7 +140,7 @@ a {
     float: left; }
   .nav a {
     display: block;
-    color: #555555;
+    color: #3c3c3c;
     font-weight: 700;
     text-align: center;
     padding: 1rem 1.6rem;
@@ -154,7 +154,5 @@ a {
   padding: 1rem 10rem; }
 
 .tag__list {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
+  display: inline-block;
+  padding: 1.6rem; }
