@@ -117,7 +117,10 @@ a {
   padding: 0rem 5%; }
 
 .tag-container {
-  width: 100%; }
+  max-width: 70rem; }
+
+.about-container {
+  max-width: 70rem; }
 
 .nav {
   z-index: 1;
