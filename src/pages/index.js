@@ -10,13 +10,27 @@ export default class IndexPage extends React.Component {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
 
+    // pagination
+    const groupPosts = [];
+    for (let i = 0; i < posts.length; i++) {
+      let counter = 0;
+      const temp = [];
+      while (counter < 3) {
+        temp.push(posts[i]);
+        i++;
+        counter++;
+      }
+      groupPosts.push(temp);
+    }
+    console.log(groupPosts);
+
     return (
       <Layout>
         <section className="blog">
           <div>
             <div className="post">
               {posts.map(({ node: post }) => (
-                <Link to={post.fields.slug}>
+                <Link key={post.id} to={post.fields.slug}>
                   <div key={post.id} className="post__card">
                     <h3 className="post__title">{post.frontmatter.title}</h3>
                     <p className="post__desc">{post.frontmatter.description}</p>
