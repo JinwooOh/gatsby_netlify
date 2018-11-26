@@ -20,19 +20,6 @@ exports.createPages = ({ actions, graphql }) => {
               title
               tags
               templateKey
-              description
-              date
-              cover {
-                childImageSharp {
-                  sizes {
-                    aspectRatio
-                    base64
-                    sizes
-                    src
-                    srcSet
-                  }
-                }
-              }
             }
           }
         }
@@ -47,9 +34,9 @@ exports.createPages = ({ actions, graphql }) => {
     const posts = result.data.allMarkdownRemark.edges;
 
     // pagination
-    // const blogPosts = posts.filter(edge => edge.node.frontmatter.templateKey === 'blog-post'); // filter out only blog post
+    const blogPosts = posts.filter(edge => edge.node.frontmatter.templateKey === 'blog-post'); // filter out only blog post
     createPaginatedPages({
-      edges: posts,
+      edges: blogPosts,
       createPage,
       pageTemplate: 'src/templates/index.js',
       pageLength: 2, // This is optional and defaults to 10 if not used
