@@ -20,6 +20,19 @@ exports.createPages = ({ actions, graphql }) => {
               title
               tags
               templateKey
+              description
+              date
+              cover {
+                childImageSharp {
+                  sizes {
+                    aspectRatio
+                    base64
+                    sizes
+                    src
+                    srcSet
+                  }
+                }
+              }
             }
           }
         }
