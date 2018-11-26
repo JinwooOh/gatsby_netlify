@@ -53,3 +53,9 @@
   display: flex;
   flex-direction: row;
 }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}

@@ -52,8 +52,7 @@ a {
 
 .post {
   display: block;
-  background-color: #f4f4f4;
-  padding-bottom: 3rem; }
+  background-color: #f4f4f4; }
   .post__card {
     color: #3c3c3c;
     display: block;
@@ -152,6 +151,11 @@ a {
 .blog {
   display: flex;
   flex-direction: row; }
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem; }
 
 .tag__title {
   font-size: 3.2rem; }
