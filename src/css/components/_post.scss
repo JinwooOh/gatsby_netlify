@@ -2,20 +2,17 @@
   display: block;
   background-color: $color-white-bg;
   &__card{
+    @include respond(phone) {
+      width:95%;
+    }
     color: $color-text;
     display: block;
-    max-width: 70rem;
+    width: 70rem;
     margin: 0 auto;
     margin-bottom: 4rem;
     margin-top: 4rem;
     border-bottom: 1px solid $color-gray;
-
-    // transition: all 0.3s;
-    // position: relative;
-    //   &:hover {
-    //     box-shadow: 0 0.2rem 1rem rgba($color-black, 0.5);
-    //   }
-    }
+  }
   &__title{
     font-size: 2.4rem;
   }
@@ -24,7 +21,7 @@
     margin: 0rem;
   }
   &__image{
-    max-width: 52rem;
+    // max-width: 52rem;
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;

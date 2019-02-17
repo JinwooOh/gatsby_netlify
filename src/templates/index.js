@@ -43,10 +43,10 @@ export default class IndexPage extends React.Component {
             </div>
             <div className="pagination">
               <div className="pagination--prev">
-                <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
+                <NavLink test={first} url={previousUrl} text="Previous Page" />
               </div>
               <div className="pagination--next">
-                <NavLink test={last} url={nextUrl} text="Go to Next Page" />
+                <NavLink test={last} url={nextUrl} text="Next Page" />
               </div>
             </div>
           </div>
