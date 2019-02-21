@@ -2,34 +2,38 @@
   display: block;
   background-color: $color-white-bg;
   &__card{
-    @include respond(phone) {
+    @include respond(tab-port) {
       width:95%;
+      display: block;
+      height: auto;
     }
+    width: 90rem;
+    height: 24rem;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
     color: $color-text;
-    display: block;
-    width: 70rem;
-    margin: 0 auto;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     border-bottom: 1px solid $color-gray;
+    border-top: 1px solid $color-gray;
   }
   &__title{
+    flex: 1 1 0;
     font-size: 2.4rem;
   }
   &__desc{
+    flex: 1 1 0;
     font-size: 1.8rem;
-    margin: 0rem;
   }
   &__image{
-    // max-width: 52rem;
-    margin: 0 auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
+    flex: 1 1 0;
   }
   &__date{
+    display: block;
     color: gray;
     font-size: 1.4rem;
-    margin-bottom: 1rem;
   }
 }

@@ -4,8 +4,8 @@
   position: sticky;
   top: 0;
   height: 20rem;
-  padding-top: 1rem;
-  margin-right: 2rem;
+  padding-top: 1.2rem;
+  margin-left: 2.4rem;
   @include respond(tab-port) {
     display: none;
   }

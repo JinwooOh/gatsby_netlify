@@ -5,9 +5,6 @@
   padding: 0;
   box-sizing: inherit; }
 
-p {
-  padding: 1.3rem 0; }
-
 html {
   font-size: 62.5%; }
   @media only screen and (max-width: 75em) {
@@ -54,29 +51,33 @@ a {
   display: block;
   background-color: #f4f4f4; }
   .post__card {
+    width: 90rem;
+    height: 24rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     color: #3c3c3c;
-    display: block;
-    width: 70rem;
-    margin: 0 auto;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-    border-bottom: 1px solid #E2E2E2; }
-    @media only screen and (max-width: 37.5em) {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #E2E2E2;
+    border-top: 1px solid #E2E2E2; }
+    @media only screen and (max-width: 56.25em) {
       .post__card {
-        width: 95%; } }
+        width: 95%;
+        display: block;
+        height: auto; } }
   .post__title {
+    flex: 1 1 0;
     font-size: 2.4rem; }
   .post__desc {
-    font-size: 1.8rem;
-    margin: 0rem; }
+    flex: 1 1 0;
+    font-size: 1.8rem; }
   .post__image {
-    margin: 0 auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
+    flex: 1 1 0; }
   .post__date {
+    display: block;
     color: gray;
-    font-size: 1.4rem;
-    margin-bottom: 1rem; }
+    font-size: 1.4rem; }
 
 .blogPost {
   display: block;
@@ -98,8 +99,8 @@ a {
   position: sticky;
   top: 0;
   height: 20rem;
-  padding-top: 1rem;
-  margin-right: 2rem; }
+  padding-top: 1.2rem;
+  margin-left: 2.4rem; }
   @media only screen and (max-width: 56.25em) {
     .info {
       display: none; } }

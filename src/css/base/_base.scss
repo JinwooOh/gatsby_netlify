@@ -5,9 +5,7 @@
   padding: 0;
   box-sizing: inherit;
 }
-p {
-  padding: 1.3rem 0;
-  }
+
 html {
   font-size: 62.5%; //1 rem 10px
   @include respond(tab-land) {
