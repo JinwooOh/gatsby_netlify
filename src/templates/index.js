@@ -19,7 +19,6 @@ export default class IndexPage extends React.Component {
     const { group, index, first, last, pageCount } = pageContext;
     const previousUrl = index - 1 == 1 ? '' : (index - 1).toString();
     const nextUrl = (index + 1).toString();
-
     return (
       <Layout>
         <section className="blog">
@@ -86,6 +85,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            date(formatString: "MMMM DD, YYYY")
             cover {
               childImageSharp {
                 sizes(maxWidth: 120) {
@@ -95,7 +95,6 @@ export const pageQuery = graphql`
             }
             description
             templateKey
-            date(formatString: "MMMM DD, YYYY")
           }
         }
       }
