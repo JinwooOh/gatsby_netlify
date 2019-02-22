@@ -121,10 +121,14 @@ a {
   padding: 0rem 5%; }
 
 .tag-container {
-  max-width: 70rem; }
+  max-width: 70rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem; }
 
 .about-container {
-  max-width: 70rem; }
+  max-width: 70rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem; }
 
 .nav {
   z-index: 1;
