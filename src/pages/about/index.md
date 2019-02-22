@@ -10,7 +10,7 @@ Hi, I am Jinwoo. I live in Madison, Wisconsin and recently graduated the Univers
 
 I want to share technical knowledge that I learned from the school and myself, and also want to share my interest with people who have the same. 
 
-Since English is not my first language, My writing is not perfect, and I mistake a lot. Hopefully writing some blogs helps me out and eventually improve my writing skill. Hopefully with 
+Since English is not my first language, My writing is not perfect, and I mistake a lot. Hopefully writing some blogs helps me out and eventually improve my writing skill. 
 
 ### Interests
 
