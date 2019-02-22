@@ -4,13 +4,13 @@ import { Link } from 'gatsby';
 const Navbar = () => (
   <nav className="nav">
     <ul>
-      <Link to="/" className="nav--item">
-        <p className="nav--home">Home</p>
+      <Link to="/" className="nav--home">
+        <p className="nav--home">Jinwoo Oh</p>
       </Link>
-      <Link to="/tags" className="nav--item">
-        <p>Tags</p>
+      <Link to="/tags" activeStyle={{ color: 'gray' }} className="nav--tags">
+        <p>Topics</p>
       </Link>
-      <Link to="/about" className="nav--item">
+      <Link to="/about" activeStyle={{ color: 'gray' }} className="nav--about">
         <p>About</p>
       </Link>
     </ul>

@@ -3,7 +3,7 @@
   background-color: $color-white-bg;
   &__card{
     @include respond(tab-port) {
-      width:95%;
+      width:auto;
       display: block;
       height: auto;
     }

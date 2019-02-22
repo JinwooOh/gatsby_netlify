@@ -63,7 +63,7 @@ a {
     border-top: 1px solid #E2E2E2; }
     @media only screen and (max-width: 56.25em) {
       .post__card {
-        width: 95%;
+        width: auto;
         display: block;
         height: auto; } }
   .post__title {
@@ -85,9 +85,11 @@ a {
   margin: 4rem 0;
   max-width: 72rem; }
   .blogPost__desc {
+    padding-top: 2rem;
     margin: 0rem; }
   .blogPost__date {
-    color: gray; }
+    color: gray;
+    padding-bottom: 2rem; }
   .blogPost__tag--list {
     display: inline-block;
     padding-right: 1.4rem; }
@@ -131,14 +133,12 @@ a {
   position: sticky;
   top: 0;
   padding: 0 5%;
-  margin-bottom: 1.6rem;
-  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1); }
+  margin-bottom: 1.6rem; }
   .nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #f4f4f4; }
   .nav li {
@@ -157,8 +157,9 @@ a {
 
 .pagination {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 3rem; }
+  justify-content: space-around;
+  padding-bottom: 3rem;
+  height: 8rem; }
 
 .tag__title {
   font-size: 3.2rem; }

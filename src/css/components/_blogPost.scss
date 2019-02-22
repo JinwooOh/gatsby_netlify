@@ -8,10 +8,12 @@
     background-color: red;
   }
   &__desc{
+    padding-top: 2rem;
     margin: 0rem;
   }
   &__date{
     color: gray;
+    padding-bottom: 2rem;
   }
   &__tag{
     &--list{
