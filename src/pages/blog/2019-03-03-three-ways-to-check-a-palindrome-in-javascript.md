@@ -140,3 +140,10 @@ In a real world application, I heard that recursion is not often used since it's
 ```
 
 This is easy to understand and does not require any fancy features of the language.
+
+## Conclusion
+All of the solutions are good, but should probably be used in a different situation. 
+* If you care about readability: solution 1 
+* Time complexity is matter: either solution 1 or 2
+
+
