@@ -17,7 +17,7 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
   return (
-    <section className="blogPost">
+    <section className="markdown-body blogPost">
       {helmet || ''}
       <div className="container content">
         <div>

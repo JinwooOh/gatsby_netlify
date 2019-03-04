@@ -30,7 +30,7 @@
   position: sticky;
   top: 0;
   padding: 0 5%;
-  margin-bottom: 1.6rem;
+  // margin-bottom: 1.6rem;
   & ul {
     display: flex;
     justify-content: space-around;
@@ -48,7 +48,9 @@
     font-weight: 700;
     text-align: center;
     padding: 1rem 1.6rem;
-    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   // box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);

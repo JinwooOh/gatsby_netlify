@@ -1,7 +1,7 @@
 .blogPost{
   display: block;
   margin: 0 auto;
-  margin: 4rem 0;
+  margin: 1rem 0;
   max-width: 72rem;
   @include respond(tab-phone) {
     // width < 900?
