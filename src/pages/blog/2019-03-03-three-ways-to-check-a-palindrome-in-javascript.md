@@ -7,9 +7,9 @@ description: >-
   In this post, I will explain how to solve a question: check whether the given
   string is a palindrome.
 tags:
-  - algorithm
-  - palindrome
-  - javascript
+  - Algorithm
+  - Palindrome
+  - Javascript
 ---
 
 Have you heard of a palindrome? A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
