@@ -19,7 +19,9 @@ In this post, I explain why I choose Gatsby JS and Netlify CMS.
 
 **Benefits of using Gatsby**
 
-1. Blazing fast: pre-rendered HTML and automatic loading of JS files2. It provides good documents and tutorial with boilerplates 3. It is Javascript, APIs, and Markup (JAM)stack that is easier scaling. I only need to manage markup files for the blog. 
+1. Blazing fast: pre-rendered HTML and automatic loading of JS files
+2. It provides good documents and tutorial with boilerplates 
+3. It is Javascript, APIs, and Markup (JAM)stack that is easier scaling. I only need to manage markup files for the blog. 
 
 ## Data Storage & Hosting: GitHub & Netlify
 
@@ -32,7 +34,7 @@ My workflow is like this:
 
 ## CMS: Netlify CMS
 
-![](/img/netlifycms.png)
+![null](/img/netlifycms.png)
 
 [Gatsby + Netlify CMS Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms) comes with Netlify CMS. For blogging purpose, default CMS is enough, but a user can modify and add new features.
 
