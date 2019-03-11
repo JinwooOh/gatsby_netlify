@@ -1,5 +1,5 @@
 ---
-cover: /img/typewriter.jpeg
+cover: /img/typewriter.png
 templateKey: blog-post
 title: 'How I build blog: Gatsby + Netlify CMS Starter'
 date: 2019-03-11T03:35:00.350Z
