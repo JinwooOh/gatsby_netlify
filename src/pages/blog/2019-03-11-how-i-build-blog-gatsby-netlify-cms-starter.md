@@ -34,7 +34,6 @@ My workflow is like this:
 
 ## CMS: Netlify CMS
 
-![null](/img/netlifycms.png)
 
 [Gatsby + Netlify CMS Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms) comes with Netlify CMS. For blogging purpose, default CMS is enough, but a user can modify and add new features.
 
