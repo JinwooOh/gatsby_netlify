@@ -1,7 +1,7 @@
 ---
 cover: /img/toolbox.jpg
 templateKey: blog-post
-title: Javascript Tool Box for your next coding interview
+title: Javascript Tool Box for Your Next Coding Interview
 date: 2019-03-19T04:31:05.595Z
 description: >-
   Small tips and tricks that can be useful in your next whiteboard technical
