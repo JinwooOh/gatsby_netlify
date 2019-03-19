@@ -1,5 +1,5 @@
 ---
-cover: /img/typewriter.jpeg
+cover: /img/toolbox.jpg
 templateKey: blog-post
 title: Javascript Tool Box for Your Next Coding Interview
 date: 2019-03-19T04:31:05.595Z
