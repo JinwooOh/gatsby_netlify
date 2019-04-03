@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
 import { graphql, Link } from 'gatsby';
+import { DiscussionEmbed } from 'disqus-react';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
@@ -15,6 +16,11 @@ export const BlogPostTemplate = ({
   title,
   helmet,
 }) => {
+  const disqusShortname = 'https-jinwoocode-com';
+  const disqusConfig = {
+    identifier: date,
+    title,
+  };
   const PostContent = contentComponent || Content;
   return (
     <section className="markdown-body blogPost">
@@ -39,6 +45,7 @@ export const BlogPostTemplate = ({
                 </ul>
               </div>
             ) : null}
+            <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
           </div>
         </div>
       </div>
