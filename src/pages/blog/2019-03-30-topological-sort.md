@@ -23,7 +23,7 @@ How about the below graph?
 ![invalid topological sort graph](/img/graph2.jpg)
 
 
-This is not a topological ordering, because 2 is greater than 5 and has the edge from 5 to 2. 
+This is not a topological ordering, because 2 is smaller than 5 and has the edge from 5 to 2. 
 
 Importantly, we can also see the cycle 2 -> 4 -> 5 -> 2. if a graph has a cycle, we cannot have a valid topological ordering. 
 
