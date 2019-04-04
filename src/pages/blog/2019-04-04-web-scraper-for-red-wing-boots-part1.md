@@ -44,7 +44,7 @@ Here is a final result that shows the query result.
 
 ![GraphQL Query Example](/img/query-example.png "GraphQL Query Example")
 
-If you want to see the code and play around check my Github page. [GitHub - JinwooOh/redwingHunter: Web scraper for Red Wing Boots](https://github.com/JinwooOh/redwingHunter)
+If you want to see the code and play around, check my Github page. [GitHub - JinwooOh/redwingHunter: Web scraper for Red Wing Boots](https://github.com/JinwooOh/redwingHunter)
 
 ## Next
 
