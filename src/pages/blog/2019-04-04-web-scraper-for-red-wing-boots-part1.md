@@ -5,7 +5,11 @@ title: Web Scraper for Red Wing Boots Part1
 date: 2019-04-04T18:49:39.056Z
 description: 'This article is about the process of my personal project: Red Wing Hunter. '
 tags:
-  - GraphQL Project Javascript Node
+  - GraphQL
+  - Project
+  - Javascript
+  - Node
+  - Web Scraping
 ---
 ## Motivation
 
