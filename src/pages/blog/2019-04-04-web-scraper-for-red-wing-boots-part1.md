@@ -26,7 +26,7 @@ That makes me tackle this project.
 
 Since this is a personal project, I can choose whatever technologies I like. I chose Node and GraphQL for the backend. I can do the Express library instead of GraphQL, but I decided to use GraphQL for the learning purpose. 
 
-Cheerio is a popular library for JS web scrapping. It gathers HTML information and manipulates with Query like syntax. 
+Cheerio is a popular library for JS web scrapping. It gathers HTML information and manipulates with JQuery like syntax. 
 
 To do web scraping, I need to view source code and find meaningful information that I can use, but there is one problem. Most of the websites are doing DOM manipulating through Javascript, and this manipulated DOM is not visible in the browser’s source code; this is why Inspect and View Source Code show different DOM elements. 
 
