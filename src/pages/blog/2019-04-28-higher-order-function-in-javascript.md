@@ -20,7 +20,7 @@ Both map and filter receive a function and perform their functionalities with th
 
 ## Taking a Function as an Argument (Map and Filter)
 ### Map use case 
-Let say if we have an array of people and want to add “Mr. ” in front of each person’s name. We can achieve this easily by using map. 
+Let say we have an array of people and want to add “Mr. ” in front of each person’s name. We can achieve this easily by using map. 
 
 ```
 const people = ["john", "Smith", "Sam"];
@@ -55,7 +55,7 @@ const ageCanDrink = age.filter(arg => arg > 17);
 ```
 
 ## Returning a function
-So far, we have seen two built-in higher order function that receives a function as an argument. How about returning a function?  In this section, I will talk more in a higher order function that returns a function. 
+So far, we have seen two built-in higher order functions that receive a function as an argument. How about returning a function?  In this section, I will talk more in a higher order function that returns a function. 
 ```
 // nutshell of a higher order function that returns a function
 function someFn(num){
