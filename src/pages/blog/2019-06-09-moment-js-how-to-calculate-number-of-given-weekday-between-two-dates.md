@@ -7,6 +7,8 @@ description: >-
 
   In this article, I will explain how to calculate total days from the given
   start and end dates and specific days of the weeks.
+tags:
+  - Javascript
 ---
 Moment.js is powerful library for your application that needs to deal with dates and times.
 
