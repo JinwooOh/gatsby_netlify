@@ -11,23 +11,20 @@ tags:
   - Palindrome
   - Javascript
 ---
-
 Have you heard of a palindrome? A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 
-
 First, let's define and clarify the question before solving the problem.
-
 
 Return true if the given string is a palindrome. If not, return false, and let's assume that input doesn't contain white spaces or non-characters, such as "#", "." and "?".
 
 ## Here are some test cases to consider
-| input   |      output      |
-|----------|:-------------:|
-| "11" |  true |
-| "a" |    true   |
-| "noon" | true |
-| "noop" | false |
 
+| input  | output |
+| ------ | ------ |
+| "11"   | true   |
+| "a"    | true   |
+| "noon" | true   |
+| "noop" | false  |
 
 ## 1. Reverse string and compare with the original string
 
@@ -50,6 +47,7 @@ We can write this to one line like this,
 ```
 
 and then simply compare with the original string.
+
 ```javascript
   function isPalindrome(s){
       return s === s.split("").reverse().join("");
@@ -83,7 +81,7 @@ What if we have an empty string, which should return true? In this case, we skip
 
 What is the main advantage of this solution?
 
-Let's imagine that if we have a super long string, such "a...(trillion lengths of string)...b" We know that the function should return true since first and last characters are not the same. It means that we don't need to compare all of the characters and we can terminate the function earlier.
+Let's imagine that if we have a super long string, such "a...(trillion lengths of string)...b" We know that the function should return false since first and last characters are not the same. It means that we don't need to compare all of the characters and we can terminate the function earlier.
 
 Our first solution always has O(n) time complexity, but in the second solution with the best case, it runs faster than the first solution.
 
@@ -142,8 +140,8 @@ In a real world application, I heard that recursion is not often used since it's
 This is easy to understand and does not require any fancy features of the language.
 
 ## Conclusion
+
 All of the solutions are good, but should probably be used in a different situation.
+
 * If you care about readability: solution 1
 * Time complexity is matter: either solution 1 or 2
-
-
