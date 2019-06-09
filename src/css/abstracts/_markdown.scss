@@ -257,7 +257,7 @@
 .markdown-body pre {
   max-width: auto;
   @include respond(phone) {
-    max-width: 48rem;
+    max-width: 37.5rem;
   }
   font-family: monospace,monospace;
   font-size: 1em;
