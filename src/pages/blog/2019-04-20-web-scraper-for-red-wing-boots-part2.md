@@ -16,11 +16,11 @@ tags:
 
 ### Front end Technologies
 
-I tried to use Next.js(https://nextjs.org/) which is the React framework. It brings benefits like routing and a simple set-up process. 
+I tried to use Next.js(https://nextjs.org/) which is the React framework. It brings benefits like routing and a simple set-up process.
 
-To use GraphQL on the client side, I needed to use Apollo, and a graphql-tag library, which allows a developer to query with a template literal tag. 
+To use GraphQL on the client side, I needed to use Apollo, and a graphql-tag library, which allows a developer to query with a template literal tag.
 
-```
+```javascript
 const STP_QUERY = gql`
   query STP_QUERY($size: Float) {
     getSierra(size: $size) {
@@ -31,10 +31,10 @@ const STP_QUERY = gql`
 `;
 ```
 
-After declaring queries, I modulize each shop as a component. 
-This component makes easier to add another shop in the future. 
+After declaring queries, I modulize each shop as a component.
+This component makes easier to add another shop in the future.
 
-```
+```javascript
 <ShopQuery
   query={STP_QUERY}
   queryMethod="getSierra"
@@ -42,17 +42,17 @@ This component makes easier to add another shop in the future.
 />
 ```
 
-If you want to see the code, check my [Github Page](https://github.com/JinwooOh/redwingHunter). 
+If you want to see the code, check my [Github Page](https://github.com/JinwooOh/redwingHunter).
 
 ### Deployment
 
-I decided to use Heroku for both front-end and back-end. 
+I decided to use Heroku for both front-end and back-end.
 
-One gotcha is that I need to change script for front-end because Heroku uses their port, and also we need post build for Next.js 
+One gotcha is that I need to change script for front-end because Heroku uses their port, and also we need post build for Next.js
 
-package.json file: 
+package.json file:
 
-```
+```javascript
 "scripts": {
     "dev": "next",
     "build": "next build",
@@ -64,8 +64,8 @@ package.json file:
 
 ### Result
 
-It is my first GrapQL project, and I like the fact that I can write data type and extract the data that is  what I want. Also, it works well with Node and React. 
+It is my first GrapQL project, and I like the fact that I can write data type and extract the data that is  what I want. Also, it works well with Node and React.
 
-The live version is available [here](https://redwinghunter-next-prod.herokuapp.com). 
+The live version is available [here](https://redwinghunter-next-prod.herokuapp.com).
 
 ![Red Wing Hunter](/img/redwinghunter_demo.png "Red Wing Hunter")

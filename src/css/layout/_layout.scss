@@ -43,6 +43,7 @@
     float: left;
   }
   & a {
+    list-style-type: none;
     display: block;
     color: $color-text;
     font-weight: 700;

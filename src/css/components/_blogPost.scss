@@ -2,7 +2,7 @@
   display: block;
   margin: 0 auto;
   margin: 1rem 0;
-  max-width: 72rem;
+  max-width: 84rem;
   @include respond(tab-phone) {
     // width < 900?
     background-color: red;
