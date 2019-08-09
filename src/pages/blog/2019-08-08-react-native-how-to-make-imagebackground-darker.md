@@ -13,7 +13,7 @@ React Native provides ImageBackground component which is similar to background-i
 
 With this component, we can set various things over the image like text or other images. 
 
-```
+```javascript
 return (
   <ImageBackground source={…} style={{width: ‘100%’, height: ‘100%’}}>
     <Text>Inside</Text>
@@ -26,7 +26,7 @@ I wanted to set background image darker to popup text, but applying style on Ima
 ### Solution
 Use custom Darken component
 
-```
+```javascript
 <ImageBackground source={...} style={{width: '100%', height: '100%'}}>
 	<DarkenImg>
 		<Text>Inside</Text>
@@ -34,7 +34,7 @@ Use custom Darken component
 </ImageBackground>
 ```
 
-```
+```javascript
 // Note that I am using styled-component
 const DarkenImg = styled.View`
   flex: 1;
