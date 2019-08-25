@@ -4,7 +4,7 @@ templateKey: blog-post
 title: Lessons I Learned after Using React Native about 2 Months
 date: 2019-08-24T23:08:14.685Z
 description: >-
-  Last 2 months I have developed a React native application, and I want to share
+  Last 2 months I have developed a React Native application, and I want to share
   what I feel about React Native and some challenges that I encounter.
 tags:
   - React Native
@@ -23,7 +23,7 @@ I think one reason why is still in Beta is that setting up React Native project 
 
 Other than that, it was quite smooth transit from React to React Native. Both technologies share the same concept, language, and the workflow.
 
-## Let's Talk About Development Side
+## Let's Talk about Development Side
 I can use CSS, that's great! Well, you have to know a few exceptions. For example, React Native only supports FlexBox with a few exceptions like default flex-direction in React Native is column instead of a row, and a unit of measurement is dp instead of pixel. 
 
 Same code for both platforms. It's awesome! But now, you have to test both platforms. Even though iOS and Android share the same codebase, many time outcomes are different. For example, default date picker of iOS and Android is different, and we need to test both to see if results are what we expect. I had one situation where the application worked great on iOS and didn't work on Android, and I had to debug what caused the issue. 
